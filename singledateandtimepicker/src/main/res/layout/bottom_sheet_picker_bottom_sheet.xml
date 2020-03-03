@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:layout_marginBottom="70dp"
         android:background="@android:color/white"
         android:elevation="4dp"
         android:orientation="vertical">
@@ -26,10 +27,10 @@
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
                 android:minWidth="80dp"
-                android:visibility="gone"
                 android:text="title here"
                 android:textColor="@color/picker_button_background_selected"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:visibility="gone" />
 
         </FrameLayout>
 
@@ -49,14 +50,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="end|center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/shape_rounded_button_bg"
             android:gravity="center"
             android:padding="16dp"
             android:text="Select"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="50dp"
-            android:layout_marginTop="8dp"
             android:textAllCaps="true"
             android:textColor="#fff"
             android:textStyle="bold" />
